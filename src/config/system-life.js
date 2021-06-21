@@ -43,3 +43,4 @@ var healthMid = function (req, res, next) {
 
 exports.routers = router;
 exports.middlewares = { healthMid};
+
