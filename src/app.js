@@ -33,6 +33,7 @@ const serverStatus = () => {
     }
 };
 
+
 app.get('/health', (res, req) => {
     let healthResult = serverStatus();
     if (mongoose.connection.readyState == 0) {
@@ -76,3 +77,4 @@ var port = process.env.SERVER_PORT || 8080;
 app.listen(port, () => {
     console.log('Servidor rodando na porta ' + port);
 });
+
