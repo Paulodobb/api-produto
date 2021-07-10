@@ -168,4 +168,3 @@ definitions:
       categoria:
         type: "string"
         example: "Eletrodomésticos"
-
